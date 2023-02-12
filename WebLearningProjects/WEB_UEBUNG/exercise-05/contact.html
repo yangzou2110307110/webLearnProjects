@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Ascii School</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="./styles/styles.css" rel="stylesheet" />
+
+  <script src="./scripts/contact.js"></script>
+</head>
+
+<body>
+  <nav class="main-nav">
+    <a href="./index.html" class="nav-link">Gallery</a>
+    <a href="./about.html" class="nav-link">About</a>
+    <a href="./contact.html" class="nav-link is-active">Contact</a>
+  </nav>
+
+  <header class="page-header">
+    <h1>Contact</h1>
+    <p>Contact the author of the page.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact form</h2>
+      <form method="POST" id="contact-form">
+        <label for="name-input">Name</label>
+        <input id="name-input" type="text" name="name" required />
+
+        <label for="phone-input">Phone</label>
+        <input id="phone-input" type="tel" name="phone" />
+
+        <label for="email-input">Email</label>
+        <input id="email-input" type="email" name="email" required />
+
+        <label for="message-input">Message</label>
+        <textarea id="message-input" name="message" rows="4"></textarea>
+
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+    <section>
+      <h2>Contact data</h2>
+
+      <address>
+        Harry Potter<br />
+        The cupboard under the stairs<br />
+        4 Privet Drive<br />
+        Little Whinging<br />
+        Surrey<br /><br />
+
+        <a href="mailto:harry.potter@hogwarts.wiz">harry.potter@hogwarts.wiz</a><br />
+        <a href="tel:00436641234567">+43 664 1234567</a>
+      </address>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>This app was built with love in Hagenberg, Upper Austria.</p>
+    <a href="#">Privacy</a>
+    <a href="#">Impressum</a>
+  </footer>
+</body>
+
+</html>

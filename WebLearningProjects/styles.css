@@ -1,0 +1,14 @@
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
+}
+
+.flex-container div {
+    container-type: inline-size; 
+    flex-basis: 100%;
+}

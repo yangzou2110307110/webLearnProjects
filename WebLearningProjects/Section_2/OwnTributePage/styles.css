@@ -1,0 +1,64 @@
+
+
+h1{
+    font-size: 40px;
+}
+
+.heading, #img-id{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.center, .heading{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#image{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 256px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+
+.txt-font{
+    font-family: sans-serif;
+}
+
+.quote{
+    line-height: 2; 
+}
+
+h3 {
+    padding-bottom: 10em;
+}
+
+.top-div{
+    background-color: gray;
+    padding-bottom: 2em;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    border: none;  
+}
+
+
+
+html{
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0px; 
+    padding: 0px; 
+}
+

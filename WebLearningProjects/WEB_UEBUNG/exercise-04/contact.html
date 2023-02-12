@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Contact | Ascii School</title>
+  <!-- TODO: Link to CSS file -->
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="main-nav">
+    <a href="./index.html" class="nav-link is-active">Gallery</a>
+    <a href="./about.html" class="nav-link">About</a>
+    <a href="./contact.html" class="nav-link">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Contact</h1>
+    <p>
+      Contact the author of the page.
+    </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact form</h2> 
+      <!-- TODO: add contact form-->
+      
+      <form action="" method="POST">
+        <label for="name-input">Name</label>
+        <input type="text" id="name-input" name="name" placeholder="Your name.." required />
+        <label for="email-input">Email</label>
+        <input type="email" id="email-input" name="email" placeholder="Your email.." required />
+        <label for="phone-input">Phone</label>
+        <input type="tel" id="phone-input" name="phone" placeholder="Your phone number.." required />
+        <label for="message-input">Message</label>
+        <textarea id="mesasge-input" name="message" placeholder="Write something.." cols="20" rows="4"></textarea>
+
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+    <section>
+      <h2>Contact data</h2>
+
+      <address>
+        Harry Potter<br />
+        The cupboard under the stairs<br />
+        4 Privet Drive<br />
+        Little Whinging<br />
+        Surrey<br /><br />
+
+        <a href="mailto:harry.potter@hogwarts.wiz">harry.potter@hogwarts.wiz</a><br />
+        <a href="tel:00436641234567">+43 664 1234567</a>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>This app was built with love in Hagenberg, Upper Austria.</p>
+    <a href="#">Privacy</a>
+    <a href="#">Impressum</a>
+  </footer>
+</body>
+
+</html>

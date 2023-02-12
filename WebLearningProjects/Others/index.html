@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Animations</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="hamburger-menu content-container header-container">
+        <h1>CSS Animations</h1>
+        <p>
+          At this point we would like to give a brief introduction to the world
+          of CSS Animations. We will talk about what CSS Animations are and what
+          you can use them for.
+        </p>
+        <input type="checkbox" id="menu__toggle" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li>
+            <a id="mi_1" class="menu__item" href="#section-css-keyframes"
+              >CSS Keyframes</a
+            >
+          </li>
+          <li>
+            <a id="mi_2" class="menu__item" href="#section-css-transitions"
+              >CSS Transitions</a
+            >
+          </li>
+          <li>
+            <a id="mi_3" class="menu__item" href="#code-examples-general"
+              >Code Examples</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section id="section-css-keyframes">
+      <div class="content-container content-block">
+        <h2>CSS Keyframes</h2>
+        <p>
+          Here we're going to talk about CSS keyframes. Keyframes are a way to
+          create CSS Animations, and we'll take a look at the options you have
+          when using keyframes.
+        </p>
+        <h4>Properties</h4>
+        <ul>
+          <li>@keyframes</li>
+          <li>animation-name</li>
+          <li>animation-duration</li>
+          <li>animation-delay</li>
+          <li>animation-iteration-count</li>
+          <li>animation-direction</li>
+          <li>animation-timing-function</li>
+          <li>animation-fill-mode</li>
+          <li>animation</li>
+        </ul>
+        <a href="#code-examples-keyframes"><h4>Example</h4></a>
+      </div>
+    </section>
+    <section id="section-css-transitions">
+      <div class="content-container content-block">
+        <h2>CSS Transitions</h2>
+        <p>
+          CSS Transitions are another way for animating your code. CSS
+          Transitions allow you to change property values smoothly over a given
+          duration.
+        </p>
+        <h4>Properties (The most important ones)</h4>
+        <ul>
+          <li>background-color</li>
+          <li>color</li>
+          <li>border-radius</li>
+          <li>transform</li>
+          <li>all</li>
+        </ul>
+        <a href="#code-examples-transitions"><h4>Example</h4></a>
+      </div>
+    </section>
+    <section>
+      <div id="code-examples-general" class="content-container content-block">
+        <h2>Code Examples</h2>
+        <p>
+          This section contains various code examples on how to use Keyframes
+          and Transitions.
+        </p>
+        <h4>Examples</h4>
+        <div id="code-examples-keyframes">
+          <p>Examples are under construction, please be patient!</p>
+        </div>
+        <div id="code-examples-transitions">
+          <p>Examples are under construction, please be patient!</p>
+        </div>
+      </div>
+    </section>
+    <footer class="page-footer">
+      <div class="content-container footer-container">
+        <p>
+          Powered by Dreams and Discomfort.<br />Made by Adrian Nerat and
+          Alexander Edinger.
+        </p>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    var mi_1 = document.getElementById("mi_1");
+    var mi_2 = document.getElementById("mi_2");
+    var mi_3 = document.getElementById("mi_3");
+
+    var menu_toggle = document.getElementById("menu__toggle");
+
+    mi_1.addEventListener("click", toggleHambugerMenu);
+    mi_2.addEventListener("click", toggleHambugerMenu);
+    mi_3.addEventListener("click", toggleHambugerMenu);
+
+    function toggleHambugerMenu() {
+      menu_toggle.checked = false;
+    }
+  </script>
+</html>

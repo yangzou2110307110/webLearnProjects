@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+    display: block;    
+}
+
+a{
+    text-decoration: none;
+    color: #000; 
+}
+
+a:hover{
+    background-color: beige;
+    text-decoration: overline;
+}
+
+#offset{
+  height: 1em;
+  width: 100%; 
+  padding-top: 1em;
+  background-color: #000;
+  position: fixed; 
+  top: 0; 
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+    margin-top: 1em;
+} 
+
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  
+  .logo {
+    width: 60vw;
+  }
+  
+  @media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
+  
+  .logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 650px) {
+    .logo > img {
+      margin: 0 auto;
+    }
+  }
+  
+  nav {
+    font-weight: 400;
+  }
+
+  @media (max-width: 650px) {
+    nav {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px;
+    }
+    nav li {
+      padding-bottom: 5px;
+    }
+  }
+  
+  nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  @media (max-width: 650px) {
+    nav > ul {
+      flex-direction: column;
+    }
+  }
+
+
+  /* feaures of restaurant */
+
+  #features {
+    margin-top: 10em ;
+  }
+  
+  .feature_point{
+    display: flex; 
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+
+  #features p {
+    margin-top: 0.5em;
+    line-height: 1.2em;
+  }
+  
+  @media (max-width: 550px) {
+    #features .icon {
+      display: none;
+    }
+  }
+
+  #features .point_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+  }
+  
+  @media (max-width: 550px) {
+    #features .point_description {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
+    }
+  }
+
+
+  #about_us {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #about_us > iframe {
+    max-width: 560px;
+    width: 100%;
+  } 
+
+
+  hr{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    height: 5px;
+    background-color: #000;
+  }
+
+  #reservation {
+    margin-top: 2em; 
+  }
+
+  #reservation > h2{
+    text-align: center;
+    line-height: 1.3em;
+  }
+
+  #reservation > form {
+    margin-top: 2em;
+    margin-bottom: 7em;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000;
+    padding: 1em;
+  }
+
+  #reservation > form > .form-group {
+    margin-bottom: 0.7em;
+  }
+  
+  #reservation > form > .form-group > label {
+    padding-right: 0.4em;
+    padding-bottom: 55px    ;
+  }
+
+  input{
+    width: 70%; 
+    margin-top: 0.2em;
+    border-radius: 3x;
+    padding: 3px;
+    margin-right: 0.5em; 
+  }
+
+  #people{
+    width: 40%;
+  }
+
+  #submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 100%;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+
+  textarea{
+    margin-top: 5px;
+  }
+
+
+  footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    color: #444;
+  }
+
+  
+  
+  
+
+  

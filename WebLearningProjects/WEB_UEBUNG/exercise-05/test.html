@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    <script>
+        
+        // nromal function
+        function createPoint(x, y) {
+            const obj = new Object();
+            obj.x = x;
+            obj.y = y;
+
+            obj.toString = function() {
+                return `Point(${this.x}, ${this.y})`;
+            }
+
+            return obj; 
+        }
+
+        // constructor function 
+        // convention name starts with capital letter
+        function Point(x, y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        Point.prototype.toString = function() {
+            return `Point(${this.x}, ${this.y})`;
+        }
+
+        // class
+        class PointClass {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+            }
+            toString() {
+                return `Point(${this.x}, ${this.y})`;
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/*
+  text color: #242424
+  accent color: #a66460
+  accent color (light): #d8ccc0
+  main color: #49735f
+  main color (light): #d4ddd9
+  highlight color: #147d93
+*/
+
+body {
+  color: #242424;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #49735f;
+  font-family: 'VT323', monospace;
+}
+
+a {
+  color: #147d93;
+}
+
+a:hover {
+  color: #a66460;
+  text-decoration: none;
+}
+
+.page-header {
+  background-color: #49735f;
+  color: #ffffff; 
+  text-align: center;
+}
+
+.page-header h1 {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #d4ddd9;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background-color: #efefef;
+}
+
+li::marker{
+  color: #a66460;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.nav-link.is-active {
+  color: #49735f;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.gallery li {
+  list-style: none;
+}
+
+.gallery pre {
+  font-size: 4px;
+}
+
+.gallery .meta-data {
+  font-size: 14px;
+}

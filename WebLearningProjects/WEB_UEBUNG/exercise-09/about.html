@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Ascii School</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="./styles/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="main-nav">
+    <a href="./index.html" class="nav-link">Gallery</a>
+    <a href="./about.html" class="nav-link is-active">About</a>
+    <a href="./contact.html" class="nav-link">Contact</a>
+  </nav>
+
+  <header class="page-header">
+    <div class="circle circle-big-tl"></div>
+    <div class="circle circle-big-br"></div>
+    <div class="circle circle-sm circle-sm-tl"></div>
+    <div class="circle circle-sm circle-sm-br"></div>
+
+    <div class="content-container">
+      <div class="page-header-text">
+        <h1>About "Ascii School"</h1>
+        <p>This project was built during the WDP3 exercises at FH Hagenberg.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="content-container">
+        <h2>The goal</h2>
+        <p>This project was built during the WDP3 exercises at FH Hagenberg. The main focus of the project is getting
+          familiar with web frontend technologies like HTML, CSS, and JavaScript.</p>
+
+        <h3>Project steps and ToDos</h3>
+        <ul>
+          <li>HTML setup: gallery page (homepage), about, contact page</li>
+          <li>Gallery page: render data from web storage, implement like button</li>
+          <li>Contact page: contact form and basic styling with CSS</li>
+          <li>Form validation and image transformation (image to ASCII art)</li>
+          <li>CSS Layout</li>
+          <li>Image upload, store image in local storage, store metadata</li>
+          <li>CSS refinement</li>
+          <li>Geolocation, drag & drop</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="content-container">
+        <h2>What is ASCII?</h2>
+        <p>ASCII, abbreviated from American Standard Code for Information Interchange, is a character encoding standard
+          for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other
+          devices. Most modern character-encoding schemes are based on ASCII, although they support many additional
+          characters.<br />
+          Source: <a href="https://en.wikipedia.org/wiki/ASCII">Article about ASCII on Wikipedia</a>
+        </p>
+
+        <h3>History</h3>
+        <p>ASCII was developed from telegraph code. Its first commercial use was as a seven-bit teleprinter code
+          promoted
+          by Bell data services. Work on the ASCII standard began in May 1961, with the first meeting of the American
+          Standards Association's (ASA) (now the American National Standards Institute or ANSI) X3.2 subcommittee. The
+          first edition of the standard was published in 1963, underwent a major revision during 1967, and
+          experienced its most recent update during 1986. Compared to earlier telegraph codes, the proposed Bell code
+          and ASCII were both ordered for more convenient sorting (i.e., alphabetization) of lists and added features
+          for devices other than teleprinters.<br />
+          Source: <a href="https://en.wikipedia.org/wiki/ASCII#Overview">ASCII Overview on Wikipedia</a>
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="content-container">
+        <h2>About the authors</h2>
+
+        <h3>Minerva McGonagall</h3>
+        <div class="author-content">
+          <p>Professor McGonagall is a professor at Hogwarts School for Witchcraft and Wizardry and is the head of
+            Gryffindor House and professor of Transfiguration, as well as being the Deputy Headmistress under Albus
+            Dumbledore and a member of the Order of the Phoenix.</p>
+          <img src="./assets/minerva.jpg"
+            alt="Minerva McGonagall smiling, wearing a fancy hat and holding a glass of juice." srcset="./assets/minerva-400.jpg 400w,
+                    ./assets/minerva-600.jpg 600w,
+                    ./assets/minerva-900.jpg 900w,
+                    ./assets/minerva-1200.jpg 1200w,
+                    ./assets/minerva-1500.jpg 1500w" sizes="(min-width: 800px) 400px, 70vw" />
+        </div>
+
+        <h3>Severus Snape</h3>
+        <div class="author-content">
+          <p>Severus Snape is the Potions Master at Hogwarts School for Witchcraft and Wizardry, though he is widely
+            rumoured to covet the Defence Against the Dark Arts post.</p>
+          <img src="./assets/severus.jpg" alt="Severus Snape looking grumpy as always." srcset="./assets/severus-400.jpg 400w,
+                    ./assets/severus-600.jpg 600w,
+                    ./assets/severus-900.jpg 900w,
+                    ./assets/severus-1200.jpg 1200w,
+                    ./assets/severus-1500.jpg 1500w" sizes="(min-width: 800px) 400px, 70vw" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="content-container">
+      <p>This app was built with love in Hagenberg, Upper Austria.</p>
+      <a href="#">Privacy</a>
+      <a href="#">Impressum</a>
+    </div>
+  </footer>
+</body>
+
+</html>

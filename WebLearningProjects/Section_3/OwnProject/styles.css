@@ -1,0 +1,121 @@
+/* Design inspired by freeCodeCamp coded by Yang Zou*/
+
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.4;
+}
+
+#navbar {
+    position: absolute;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 290%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    padding-top: 1em;   
+}
+
+header {
+    color: black;
+    margin: 10px;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: thin;
+    margin: 0; 
+}
+
+#navbar header{
+    font-size: 1.3em; 
+    text-align: center; 
+}
+
+
+
+#navbar ul {
+    height: 88%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+} 
+
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    margin-left: 40px;
+    padding-left: 20px; 
+    padding-bottom: 15px;
+}
+  
+   #navbar.nav-link {
+    display: block;
+    padding: 10px 30px;
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a{
+    text-decoration: none;
+    color: blue;
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+ 
+  section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+    margin-bottom: 30px;
+  }
+  
+ 
+  section li {
+    margin: 15px 0px 0px 20px;
+  }
+   
+  code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 0px;
+    padding-top: 0;
+    border-radius: 5px;
+  } 
+   
+  @media only screen and (max-width: 400px) {
+
+  
+    code {
+      width: 100%;
+      padding: 15px;
+      padding-left: 13px;
+      padding-right: 43px;
+      min-width: 232px;
+      margin-left: -18px;
+    }
+
+    #main-doc {
+      margin-left: -11px;
+    }
+  } 

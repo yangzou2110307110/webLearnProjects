@@ -1,0 +1,77 @@
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7));
+    text-align: center;
+    margin-top: 50px;
+    color: white; 
+}
+
+h1 {
+    font-weight: 1000;
+    line-height: 1.2;
+}
+
+.description {
+    font-style: italic;
+    font-weight: 200;
+
+}
+
+form {
+    background: rgba(27, 27, 50, 0.8);
+    padding: 2.5rem 1.5rem ;
+    border-radius: 0.75rem;
+    margin: 2em 20rem 0 20rem; 
+    font-size: 18px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: left;
+}
+
+
+select, input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.input-line {
+    margin-top:  0.3em; 
+    margin-bottom: 0.3em;
+    display: block;  
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+input[id="submit"] {
+  display: block;
+  width: 90%;
+  padding: 0.75rem;
+  background: #37af65;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: black
+}
+
+
+
